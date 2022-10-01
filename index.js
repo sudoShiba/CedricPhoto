@@ -17,7 +17,7 @@ const app = express()
 
 const randint = (max) => {  
     return Math.floor(
-        Math.random() * max
+        Math.random() * (max + 1)
     )
 }
 
