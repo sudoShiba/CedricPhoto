@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
                     </head>
                     <body>
                         <div>
-                            <img src="${randint(7)}.jpg" />
+                            <img src="${randint(8)}.jpg" />
                         </div>
                     </body>
                 </html`);
@@ -82,7 +82,7 @@ app.get("/wide", (req, res) => {
                     </head>
                     <body>
                         <div>
-                            <img src="${randint(7)}.jpg" />
+                            <img src="${randint(8)}.jpg" />
                         </div>
                     </body>
                 </html`);
